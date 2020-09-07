@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.square-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: #d2e603;
+  border: solid 2px black;
+  float: left;
+}
+
+.square-orange {
+  width: 100px;
+  height: 100px;
+  background-color: #eff48e;
+  border: solid 2px black;
+  float: left;
 }
